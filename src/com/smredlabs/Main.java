@@ -1,4 +1,4 @@
-package com.company;
+package com.smredlabs;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,13 +8,13 @@ import java.util.HashSet;
 public class Main {
 
     public static void main(String[] args) {
-        int[] arr = new int[]{1,3,2,5,7,5,5,6,8};
+        int[] arr = new int[]{1, 3, 2, 5, 7, 5, 5, 6, 8};
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
 
-        HashMap<Integer,Integer> hashMap = new HashMap<>();
-        for (int i=0;i< arr.length; i++){
-            hashMap.put(arr[i],i);
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
+        for (int i = 0; i < arr.length; i++) {
+            hashMap.put(arr[i], i);
         }
 
         System.out.println(hashMap.keySet());
@@ -33,10 +33,10 @@ public class Main {
 
 
         String s = "Vinod";
-        System.out.println(s.substring(2,3));
+        System.out.println(s.substring(2, 3));
 
 
-        int size =6;
+        int size = 6;
         for (int i = size; i != 0; i--) {
             for (int j = 0; j < size - i; j++) {
                 System.out.print(" ");

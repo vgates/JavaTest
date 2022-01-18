@@ -1,17 +1,17 @@
-package com.company;
+package com.smredlabs.genexample;
 
 //Ref: https://www.geeksforgeeks.org/string-vs-stringbuilder-vs-stringbuffer-in-java/
 public class StringBuilderBuffer {
 
-    static void concatString(String string1){
-        string1 = string1+"Vinod";
+    static void concatString(String string1) {
+        string1 = string1 + "Vinod";
     }
 
-    static void concatStringBuilder(StringBuilder string2){
+    static void concatStringBuilder(StringBuilder string2) {
         string2.append("Vinod");
     }
 
-    static void concatStringBuffer(StringBuffer string3){
+    static void concatStringBuffer(StringBuffer string3) {
         string3.append("Vinod");
     }
 

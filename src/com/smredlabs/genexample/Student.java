@@ -1,4 +1,4 @@
-package com.company;
+package com.smredlabs.genexample;
 
 public class Student {
     int rollno;

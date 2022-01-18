@@ -1,4 +1,4 @@
-package com.company;
+package com.smredlabs.genexample;
 
 public class StringExample {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class StringExample {
         //Working of split
         String string = "string_is_a_string";
         String[] stringArray = string.split("_");
-        for(String a : stringArray){
+        for (String a : stringArray) {
             System.out.println(a);
         }
 
@@ -14,8 +14,8 @@ public class StringExample {
 
         //When limit>0 split will be applied at most limit-1 times
         //Even if limit is higher value, zero or negative value it will work
-        String[] stringArray2 = string.split("_",3);
-        for (String a : stringArray2){
+        String[] stringArray2 = string.split("_", 3);
+        for (String a : stringArray2) {
             System.out.println(a);
         }
 
