@@ -15,7 +15,7 @@ public class ReverseString {
         for (int i = 0; i < string.length(); i++) {
             stack.push(string.charAt(i));
         }
-        
+
         System.out.println("Reverse of the string is ");
         for (int i = 0; i < string.length(); i++) {
             System.out.print(stack.pop());
@@ -45,6 +45,11 @@ public class ReverseString {
             revString += string.charAt(i);
         }
         System.out.println("Reverse of the string is " + revString);
+        //Since strings are immutable this approach will create
+        //new string on each append. Time Complexity: O(n) just to
+        //create a new string and copying and appending the old string to
+        //the new one. Since we have a for loop then the time complexity becomes
+        //O(n2). Solution is to use the StringBuilder
     }
 
     private static void reverseString(String string) {
